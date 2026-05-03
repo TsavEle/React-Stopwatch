@@ -1,0 +1,62 @@
+body{
+  background-color: hsl(0, 2%, 54%);
+  margin: 0;
+  background-image: url("./assets/running.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.stopwatch-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 37%;
+  gap: 10px 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: black;
+  width: 500px;
+}
+
+span{
+  font-size: 5rem;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: hsl(180, 1%, 95%);
+}
+
+button{
+  font-size: 2rem;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  transition: 0,5s ease;
+}
+
+.start-btn{
+  background-color: hsl(120, 100%, 30%);
+}
+
+.start-btn:hover{
+  background-color: hsl(120, 100%, 20%);
+}
+
+.stop-btn{
+  background-color: hsl(4, 84%, 42%);
+}
+
+.stop-btn:hover{
+  background-color: hsl(4, 84%, 32%);
+}
+
+.reset-btn{
+  background-color: hsl(234, 83%, 48%);
+}
+
+.reset-btn:hover{
+  background-color: hsl(234, 83%, 38%);
+}
+  
